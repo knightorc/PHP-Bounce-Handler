@@ -23,7 +23,7 @@ function checkmail($email) {
     if ($bh->type == 'autoresponse') {
         print " AUTO      ". $bounceinfo[0]['autoresponse']. "\n";
     }
-    if ($bh->type) 
+    if ($bh->type)
       @$total[$bh->type]++;
     else
       @$total['unknown']++;
@@ -54,7 +54,7 @@ if (defined('STDIN')) {
                 checkmail($email);
             }
         }
-        
+
     }
     else {
         $handle = fopen("php://stdin","r");

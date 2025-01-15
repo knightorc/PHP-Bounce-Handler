@@ -8,6 +8,9 @@ Upload to a website, and open testdriver1.php in a web browser
 
 RELEASE HISTORY
 ---------------
+v7.5.1 WP  Jan 14, 2025
+ - PHP7/8 php moderizations
+
 v7.5.0 WP  May 18, 2019
  - Switch to curl from fopen.
  - Add -k (keep flag) for optionally keeping the original csv files.
@@ -34,7 +37,7 @@ v7.4.1 SB  Oct 22, 2014
 
 v7.4 SB  June 19, 2014
 - make auto-responder identification table driven
-- make bounce_statuscodes.php (prev rfc1893_status_codes.php) generated from IANA list  
+- make bounce_statuscodes.php (prev rfc1893_status_codes.php) generated from IANA list
    php Make_statuscodes.php >bounce_statuscodes.php
 - allow for rfc status codes with 2 digits in the 3rd paramater
 - more supression for php notifications on undefined data
@@ -47,7 +50,7 @@ v7.4 SB  June 19, 2014
 v7.3 CF  July 4, 2013
 
 - Replaced deprecated split() function.
-- Added auto-responder identification filter.  
+- Added auto-responder identification filter.
 - Suppressed php Notice errors.
 
 
